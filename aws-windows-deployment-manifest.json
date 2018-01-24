@@ -1,0 +1,24 @@
+{
+  "manifestVersion": 1,
+  "iisConfig": {
+    "appPools": [
+      {
+        "name": "App pool",
+        "recycling": {
+          "regularTimeInterval": 0
+        }
+      }
+    ]
+  },
+  "deployments": {
+    "aspNetCoreWeb": [
+      {
+        "name": "YOURAPPNAME",
+        "parameters": {
+          "appBundle": "./YOURAPPNAME",
+          "iisPath": "/"
+        }
+      }
+    ]
+  }
+}

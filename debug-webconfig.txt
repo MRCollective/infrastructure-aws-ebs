@@ -1,0 +1,5 @@
+﻿    <aspNetCore processPath=".\YOURAPPNAME.exe" stdoutLogEnabled="true" stdoutLogFile="c:\inetpub\logs\stdout">
+      <environmentVariables>
+        <environmentVariable name="ASPNETCORE_ENVIRONMENT" value="Development" />
+      </environmentVariables>
+    </aspNetCore>
